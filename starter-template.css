@@ -1,0 +1,30 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#fileInput {
+    color: red;
+    text-align: center;
+    align-content: center;
+    display: block;
+    position: absolute;
+    text-align: right;
+}
+
+
+#mainForm{
+}
+#fileDiv {
+    text-align: center;
+}
+.wrapper {
+    
+}
+#eMail{
+    border: 2px solid black;
+    border-radius: 2px;
+}
