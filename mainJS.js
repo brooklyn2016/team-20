@@ -21,7 +21,9 @@ document.getElementById("upload").addEventListener("click", function() {
     }
     
     if(successfulUpload) {
-        
+        document.getElementById("accountDiv").style.visibility = "visible";
     }
-}, false);
+    console.log("here");
+    document.getElementById("")
+}, true);
 

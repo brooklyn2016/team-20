@@ -1,10 +1,11 @@
 body {
   padding-top: 50px;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+
+#headerDiv {
+    text-align: center;
 }
+
 
 #fileInput {
     color: red;
@@ -14,16 +15,22 @@ body {
     position: absolute;
     text-align: right;
 }
-
+#inputDiv {
+    text-align: center;
+    padding: 5px;
+}
 
 #mainForm{
-}
-#fileDiv {
     text-align: center;
 }
 .wrapper {
     
 }
+
+#accountDiv {
+    visibility: hidden;
+}
+
 #eMail{
     border: 2px solid black;
     border-radius: 2px;
