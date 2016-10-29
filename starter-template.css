@@ -1,11 +1,23 @@
 
 body {
-  padding-top: 50px;
     font-family: 'Montserrat', sans-serif;
+    background-color: #fff7e5;
+}
+
+#id {
+    height: 100px;
+    width: 100%;
 }
 
 #headerDiv {
     text-align: center;
+}
+
+#banner {
+    width: 100%;
+    height: 100px;
+    background-color: #FEB825;
+    padding: 0;
 }
 
 
@@ -21,6 +33,8 @@ body {
     text-align: center;
     padding: 5px;
 }
+
+
 
 #mainForm{
     text-align: center;
