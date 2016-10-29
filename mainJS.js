@@ -27,3 +27,34 @@ document.getElementById("upload").addEventListener("click", function() {
     document.getElementById("")
 }, true);
 
+document.getElementById("loginLI").addEventListener("click", function() {
+    var unString = document.getElementById("loginUsername");
+    var PWString = document.getElementById("loginPassword");
+    console.log("clicked");
+    if (unString == "" || PWString == "") {
+        document.getElementById("error").style.visibility = "visible";
+    }
+    else {
+        var authentication = window.localStorage.getItem("AUTHENT");
+    }
+})
+
+document.getElementById("createAccount").addEventListener("click", function() {
+    var fnString = document.getElementById("firstName").value;
+    var lnString = document.getElementById("lastName").value;
+    var unString = document.getElementById("userName").value;
+    var pwString = document.getElementById("password").value;
+    var checkBox = document.getElementById("terms")
+    console.log(fnString + lnString + unString+pwString);
+    console.log(checkBox.checked);
+    if (!fnString || !lnString || !unString || !pwString || !checkBox.checked) {
+        if (!checkBox.checked) {
+            document.getElementById("boxError").style.visibility = "visible";
+        }
+        else {
+            document.getElementById("boxError").style.visibility = "hidden";
+            document.getElementById("otherError").style.visibility = "visible";
+            
+        }
+    }
+}, false);

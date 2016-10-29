@@ -1,5 +1,7 @@
+
 body {
   padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #headerDiv {
@@ -15,7 +17,7 @@ body {
     position: absolute;
     text-align: right;
 }
-#inputDiv {
+.inputDiv {
     text-align: center;
     padding: 5px;
 }
@@ -28,10 +30,10 @@ body {
 }
 
 #accountDiv {
-    visibility: hidden;
+    /*visibility: hidden;*/
 }
 
-#eMail{
+.inputField{
     border: 2px solid black;
     border-radius: 2px;
 }
